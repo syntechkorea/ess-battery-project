@@ -1,0 +1,11 @@
+model,step,features,cv_mape,kept,holdout_mape,b2_mape_recorded_only
+Dummy,1,(none),14.72,-,22.23,57.81
+ElasticNet,1,dQ_log_var,9.34,True,8.47,29.6
+ElasticNet,2,dQ_log_var+avgC_0to80_meas,10.16,False,8.68,30.41
+ElasticNet,3,dQ_log_var+Tavg_mean_2_100,9.89,False,8.43,29.92
+Ridge,1,dQ_log_var,9.27,True,8.47,29.6
+Ridge,2,dQ_log_var+avgC_0to80_meas,9.85,False,8.33,29.86
+Ridge,3,dQ_log_var+Tavg_mean_2_100,9.79,False,8.34,29.77
+RandomForest,1,dQ_log_var,10.06,True,8.47,30.94
+RandomForest,2,dQ_log_var+avgC_0to80_meas,10.81,False,9.08,32.51
+RandomForest,3,dQ_log_var+Tavg_mean_2_100,10.63,False,8.39,31.93
