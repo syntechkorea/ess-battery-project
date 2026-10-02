@@ -7,18 +7,13 @@ data/cache/
 references/
 day2_reference/
 deliverables/_보관/
-# 로컬 작업 파일 (DAY 1 보고서, 따라치기 가이드): DAY 2 저장소에는 넣지 않음
+
+# 로컬 작업 파일 
 docs/
 deliverables/
-# 따라 치기 연습 폴더 (개인 학습용, practice/data 는 ../data 로 가는 링크)
-practice/
+
 # 루트의 images/ 만 무시
 /images/
-
-# ---- 도구 상태 폴더 (deliverables/ESS_배터리_수명예측/.omc/ 포함) ----
-.omc/
-**/.omc/
-.claude/
 
 # ---- 파이썬 ----
 __pycache__/
